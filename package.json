@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon --watch db.json server.js",
-    "start": "nodemon --watch db.json server.js",
-    "build": "nodemon --watch db.json server.js"
+    "start": "node server.js",
+    "build": "node server.js"
   },
   "dependencies": {
     "clone": "^2.1.2",
